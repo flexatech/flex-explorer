@@ -4,7 +4,7 @@ Tags: file manager, files, browser, download, admin
 Requires at least: 5.8
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,6 +106,9 @@ viewing by design.
 
 == Changelog ==
 
+= 0.2.4 =
+* Derive the content root solely from `wp_upload_dir()` and drop the `WP_CONTENT_DIR` fallback, so the browser root is resolved entirely through core location functions with no internal constants.
+
 = 0.2.3 =
 * Resolve the content directory through `wp_upload_dir()` instead of the `WP_CONTENT_DIR` constant, so the browser root follows custom content/uploads locations.
 * Restore the original `zlib.output_compression` setting after a download streams, keeping the change confined to the single download request.
@@ -130,6 +133,9 @@ viewing by design.
 * Initial release: read-only browsing of wp-content with inline text and image preview.
 
 == Upgrade Notice ==
+
+= 0.2.4 =
+Resolves the content directory entirely through core functions with no internal constants. Recommended maintenance update.
 
 = 0.2.3 =
 Uses core location functions for the content directory and tidies download handling. Recommended maintenance update.

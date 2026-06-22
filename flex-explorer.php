@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Flex Explorer
  * Description:       A lightweight, read-only file browser for WordPress. Browse folders and view files inside wp-content from the admin.
- * Version:           0.2.3
+ * Version:           0.2.4
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Flexa Tech
@@ -26,7 +26,7 @@ defined( 'ABSPATH' ) || exit;
  */
 final class Flex_Explorer_Lite {
 
-	const VERSION   = '0.2.3';
+	const VERSION   = '0.2.4';
 	const SLUG      = 'flex-explorer';
 	const NONCE     = 'flex_explorer';
 	const CAPABILITY = 'manage_options';

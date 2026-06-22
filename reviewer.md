@@ -1,4 +1,7 @@
+These issues are fixed.
+
 List of issues found
+
 
 
 ## Determine files and directories locations correctly
