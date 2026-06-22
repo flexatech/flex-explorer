@@ -1,0 +1,200 @@
+/* Flex Explorer - read-only browser. Plain CSS, no build step. */
+
+.flex-explorer__intro {
+	margin: 0 0 16px;
+	color: #50575e;
+}
+
+.flex-explorer__crumbs {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 4px;
+	margin-bottom: 12px;
+	font-size: 13px;
+}
+
+.flex-explorer__crumbs button {
+	background: none;
+	border: none;
+	padding: 2px 4px;
+	color: #2271b1;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.flex-explorer__crumbs button:hover {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+.flex-explorer__crumbs .flex-explorer__sep {
+	color: #8c8f94;
+}
+
+.flex-explorer__crumbs .flex-explorer__current {
+	color: #1d2327;
+	font-weight: 600;
+}
+
+.flex-explorer__toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.flex-explorer__search {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex: 1 1 280px;
+}
+
+.flex-explorer__search-input {
+	flex: 1 1 auto;
+	max-width: 360px;
+}
+
+.flex-explorer__zip {
+	margin-left: auto;
+}
+
+.flex-explorer__search-info {
+	margin: 0;
+	padding: 8px 12px;
+	font-size: 12px;
+	color: #8c8f94;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.flex-explorer__panes {
+	display: flex;
+	gap: 16px;
+	align-items: flex-start;
+}
+
+.flex-explorer__list {
+	flex: 1 1 50%;
+	min-width: 280px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.flex-explorer__viewer {
+	flex: 1 1 50%;
+	min-width: 280px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	min-height: 360px;
+	max-height: 70vh;
+	overflow: auto;
+}
+
+.flex-explorer__table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+
+.flex-explorer__table th,
+.flex-explorer__table td {
+	text-align: left;
+	padding: 8px 12px;
+	border-bottom: 1px solid #f0f0f1;
+	white-space: nowrap;
+}
+
+.flex-explorer__table th {
+	background: #f6f7f7;
+	font-weight: 600;
+	color: #50575e;
+}
+
+.flex-explorer__table td.flex-explorer__col-name {
+	white-space: normal;
+	width: 100%;
+}
+
+.flex-explorer__row {
+	cursor: pointer;
+}
+
+.flex-explorer__row:hover {
+	background: #f6f7f7;
+}
+
+.flex-explorer__row.is-active {
+	background: #f0f6fc;
+}
+
+.flex-explorer__icon {
+	margin-right: 6px;
+	color: #8c8f94;
+	vertical-align: text-bottom;
+}
+
+.flex-explorer__row--dir .flex-explorer__icon {
+	color: #dba617;
+}
+
+.flex-explorer__msg {
+	padding: 16px;
+	color: #50575e;
+}
+
+.flex-explorer__placeholder {
+	padding: 16px;
+	color: #8c8f94;
+}
+
+.flex-explorer__viewer-head {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 10px 12px;
+	background: #f6f7f7;
+	border-bottom: 1px solid #c3c4c7;
+	font-size: 12px;
+	color: #50575e;
+}
+
+.flex-explorer__viewer-name {
+	font-weight: 600;
+	color: #1d2327;
+	word-break: break-all;
+}
+
+.flex-explorer__viewer-head .flex-explorer__download {
+	margin-left: auto;
+	flex: 0 0 auto;
+}
+
+.flex-explorer__viewer pre {
+	margin: 0;
+	padding: 12px;
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	font-size: 12px;
+	line-height: 1.5;
+	white-space: pre;
+	overflow-x: auto;
+}
+
+.flex-explorer__viewer img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 12px auto;
+}
+
+@media screen and (max-width: 782px) {
+	.flex-explorer__panes {
+		flex-direction: column;
+	}
+}

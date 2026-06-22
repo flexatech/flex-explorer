@@ -1,0 +1,171 @@
+# Copyright (C) 2026 Flexa Tech
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flex Explorer 0.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flex-explorer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-13T07:04:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: flex-explorer\n"
+
+#. Plugin Name of the plugin
+#: flex-explorer.php
+#: flex-explorer.php:122
+#: flex-explorer.php:123
+#: flex-explorer.php:193
+msgid "Flex Explorer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: flex-explorer.php
+msgid "https://flexatech.com/flex-explorer/"
+msgstr ""
+
+#. Description of the plugin
+#: flex-explorer.php
+msgid "A lightweight, read-only file browser for WordPress. Browse folders and view files inside wp-content from the admin."
+msgstr ""
+
+#. Author of the plugin
+#: flex-explorer.php
+msgid "Flexa Tech"
+msgstr ""
+
+#. Author URI of the plugin
+#: flex-explorer.php
+msgid "https://flexatech.io"
+msgstr ""
+
+#: flex-explorer.php:165
+msgid "Loading…"
+msgstr ""
+
+#: flex-explorer.php:166
+msgid "This folder is empty."
+msgstr ""
+
+#: flex-explorer.php:167
+#: flex-explorer.php:295
+#: flex-explorer.php:451
+msgid "Could not load that path."
+msgstr ""
+
+#: flex-explorer.php:168
+msgid "Name"
+msgstr ""
+
+#: flex-explorer.php:169
+msgid "Size"
+msgstr ""
+
+#: flex-explorer.php:170
+msgid "Modified"
+msgstr ""
+
+#: flex-explorer.php:171
+#: flex-explorer.php:212
+msgid "Select a file to view it."
+msgstr ""
+
+#: flex-explorer.php:172
+msgid "This file type cannot be previewed here."
+msgstr ""
+
+#: flex-explorer.php:173
+msgid "This file is too large to preview."
+msgstr ""
+
+#: flex-explorer.php:174
+msgid "Folder"
+msgstr ""
+
+#: flex-explorer.php:175
+msgid "Searching in the current folder and below."
+msgstr ""
+
+#: flex-explorer.php:176
+msgid "No files match that search."
+msgstr ""
+
+#: flex-explorer.php:177
+msgid "Showing the first matches only. Narrow your search."
+msgstr ""
+
+#: flex-explorer.php:178
+msgid "Download"
+msgstr ""
+
+#: flex-explorer.php:195
+msgid "A read-only browser for the wp-content directory."
+msgstr ""
+
+#: flex-explorer.php:200
+msgid "Search files…"
+msgstr ""
+
+#: flex-explorer.php:200
+msgid "Search files"
+msgstr ""
+
+#: flex-explorer.php:201
+msgid "Clear"
+msgstr ""
+
+#: flex-explorer.php:203
+msgid "Download folder as ZIP"
+msgstr ""
+
+#: flex-explorer.php:206
+msgid "Breadcrumb"
+msgstr ""
+
+#: flex-explorer.php:226
+msgid "Security check failed."
+msgstr ""
+
+#: flex-explorer.php:230
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: flex-explorer.php:353
+#: flex-explorer.php:549
+msgid "Could not load that file."
+msgstr ""
+
+#: flex-explorer.php:359
+msgid "This file cannot be viewed."
+msgstr ""
+
+#: flex-explorer.php:455
+msgid "Type something to search for."
+msgstr ""
+
+#: flex-explorer.php:555
+msgid "This file cannot be downloaded."
+msgstr ""
+
+#: flex-explorer.php:573
+msgid "Zip support is not available on this server."
+msgstr ""
+
+#: flex-explorer.php:580
+msgid "Could not load that folder."
+msgstr ""
+
+#: flex-explorer.php:589
+msgid "Could not create the archive."
+msgstr ""
+
+#: flex-explorer.php:631
+msgid "This folder is too large to zip."
+msgstr ""
+
+#: flex-explorer.php:649
+msgid "There are no files to zip here."
+msgstr ""
