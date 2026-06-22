@@ -107,7 +107,7 @@ final class Flex_Explorer_Lite {
 		// raw constant: the uploads base lives inside wp-content, so its parent
 		// is the content root and tracks any custom uploads/content location.
 		$uploads = wp_upload_dir();
-		$base    = isset( $uploads['basedir'] ) ? dirname( $uploads['basedir'] ) : trailingslashit( ABSPATH ) . 'wp-content';
+		$base    = dirname( $uploads['basedir'] );
 
 		$root = realpath( $base );
 
